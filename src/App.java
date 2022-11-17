@@ -1,12 +1,14 @@
 import java.awt.image.BufferedImage;
 import java.awt.Color;
 import java.io.File;
+import java.io.IOException;
 import java.lang.Math;
+
+import javax.imageio.ImageIO;
+
 import java.lang.*;
 
 public class App {
-//    private int h, w;
-
     public static void main(String[] args) throws Exception {
 //        gen_pic(300, 300);
 
@@ -69,8 +71,6 @@ public class App {
                     clr_aux = 255 - (int)Math.floor(255.0 * (double)itr/(double)iter);
                     img.setRGB(x, y, new Color(clr_aux,255,clr_aux).getRGB());
                 }
-
-
             }
         }
         return img;
@@ -78,7 +78,7 @@ public class App {
 
     
 
-    public static void time_it(int[] w, int[] h, int[] repeat) {
+    public static void time_it(int[] w, int[] h, int[] repeat) throws IOException {
 
         if(w.length == h.length || repeat.length == w.length){
             long[] times = new long[repeat.length];
@@ -102,17 +102,18 @@ public class App {
         }
     }
 
-    private static void save_it(BufferedImage img, String filename){
-        System.out.println("");
+    private static void save_it(BufferedImage img, String filename) throws IOException{
+        File outputfile = new File(filename+".png");
+        ImageIO.write(img, "png", outputfile);
     }
 
-    private static void save_it(BufferedImage[] images, long[] times){
+    private static void save_it(BufferedImage[] images, long[] times) throws IOException{
         int w, h;
         for(int i = 0; i < images.length; i++){
             w = images[i].getWidth();
             h = images[i].getHeight();
             //zapisać obraz w na h pikseli
-            save_it(images[i], "name");
+            save_it(images[i], "MBrot"+w+'x'+h);
             //zrobić logi czas-wymiar
             
         }
