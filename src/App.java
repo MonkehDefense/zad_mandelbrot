@@ -1,10 +1,13 @@
 import java.awt.image.BufferedImage;
 import java.awt.Color;
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.lang.Math;
 
 import javax.imageio.ImageIO;
+
+import com.opencsv.CSVWriter;
 
 import java.lang.*;
 
@@ -12,9 +15,9 @@ public class App {
     public static void main(String[] args) throws Exception {
 //        gen_pic(300, 300);
 
-        int[] widths = new int[]{32,64,128,256,512,1024,2048,4096,8192};
+        int[] widths = {32,64,128,256,512,1024,2048,4096,8192};
         int k = 20;
-        int[] repeats = new int[]{k,k,k,k,k,k,k,k,k};
+        int[] repeats = {k,k,k,k,k,k,k,k,k};
 
         time_it(widths, widths, repeats);
 
@@ -50,7 +53,7 @@ public class App {
                 z_abs = 0;
 
                 // konwersja pikseli na ci i cr
-                ci = (y * ci_span) / h + ci_top;
+                ci = ci_top - (y * ci_span) / h;
                 cr = (x * cr_span) / w + cr_left;
 
                 int itr = 0;
@@ -114,8 +117,28 @@ public class App {
             h = images[i].getHeight();
             //zapisać obraz w na h pikseli
             save_it(images[i], "MBrot"+w+'x'+h);
-            //zrobić logi czas-wymiar
-            
+        }
+
+        //zrobić logi czas-wymiar
+        File logs = new File("logs.csv");
+        try {
+            FileWriter outputfile = new FileWriter(logs);
+            CSVWriter writer = new CSVWriter(outputfile);
+
+            String[] header = {"width", "height", "time"};
+            writer.writeNext(header);
+
+            for(int i = 0; i < times.length; i++){
+                w = images[i].getWidth();
+                h = images[i].getHeight();
+                String[] line = {"" + w, "" + h, "" + times[i]};
+                writer.writeNext(line);
+            }
+            writer.close();
+
+        }
+        catch (IOException e) {
+            e.printStackTrace();
         }
     }
 
