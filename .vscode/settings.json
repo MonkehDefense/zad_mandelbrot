@@ -3,6 +3,7 @@
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
-        "c:\\Users\\User\\Documents\\Java\\jar\\opencsv-5.7.1.jar"
+        "c:\\Users\\User\\Documents\\Java\\jar\\opencsv-5.7.1.jar",
+        "c:\\Users\\kubap\\OneDrive\\Documents\\Java\\jar\\opencsv-5.7.1.jar"
     ]
 }
