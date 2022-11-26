@@ -20,15 +20,12 @@ import java.lang.*;
 // funkcja generująca obrazek przy każdym wywołaniu tworzy wątki i jest to uwzględniane w uśrednianiu
 
 public class App_2 {
-    public static void main(String[] args) {
-        Thread[] threads = new Thread[Runtime.getRuntime().availableProcessors()];        
-        // gen_pic(300, 300);
+    public static void main(String[] args) throws IOException, InterruptedException {
+        int[] widths = {32,64,128,256,512,1024,2048,4096,8192};
+        int k = 2;
+        int[] repeats = {k,k,k,k,k,k,k,k,k};
 
-        // int[] widths = {32,64,128,256,512,1024,2048,4096,8192};
-        // int k = 20;
-        // int[] repeats = {k,k,k,k,k,k,k,k,k};
-
-        // time_it(widths, widths, repeats);
+        time_it(widths, widths, repeats);
     }
 
 
@@ -117,7 +114,7 @@ public class App_2 {
 
     
 
-    public void time_it(int[] w, int[] h, int[] repeat) throws IOException, InterruptedException {
+    public static void time_it(int[] w, int[] h, int[] repeat) throws IOException, InterruptedException {
 
         if(w.length == h.length || repeat.length == w.length){
             long[] times = new long[repeat.length];
@@ -141,12 +138,12 @@ public class App_2 {
         }
     }
 
-    private void save_it(BufferedImage img, String filename) throws IOException{
+    private static void save_it(BufferedImage img, String filename) throws IOException{
         File outputfile = new File(filename+".png");
         ImageIO.write(img, "png", outputfile);
     }
 
-    private void save_it(BufferedImage[] images, long[] times) throws IOException{
+    private static void save_it(BufferedImage[] images, long[] times) throws IOException{
         int w, h;
         for(int i = 0; i < images.length; i++){
             w = images[i].getWidth();
