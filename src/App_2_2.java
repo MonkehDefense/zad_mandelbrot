@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit;
 // Do puli należy wrzucać joby polegające na przeliczeniu części obrazka (szczegóły poniżej).
 
 // funkcja generująca obrazek przy każdym wywołaniu tworzy wątki i jest to uwzględniane w uśrednianiu
-
+//aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 public class App_2_2 {
     public static void main(String[] args) throws IOException, InterruptedException {
         
