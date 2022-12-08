@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit;
 
 // funkcja generująca obrazek przy każdym wywołaniu tworzy wątki i jest to uwzględniane w uśrednianiu
 // bloki o rozmiarach: 4, 8, 16, 32, 64, 128
-// boki bloków: [2,2], [2,4], [4,4], [4,8], [8,8], [8,16]
+// boki bloków: {2,2}, {2,4}, {4,4}, {4,8}, {8,8}, {8,16}
 
 public class App_2_2 {
     public static void main(String[] args) throws IOException, InterruptedException {
@@ -30,7 +30,7 @@ public class App_2_2 {
         int k = 20;
         int[] repeats = {k,k,k,k,k,k,k,k,k};
         // {szerokość bloku, wysokość bloku}
-        int[] chunk = {2,2};
+        int[] chunk = {8,16};
 
         time_it(widths, widths, repeats, chunk, executor);
 
@@ -169,13 +169,13 @@ public class App_2_2 {
             w = images[i].getWidth();
             h = images[i].getHeight();
             //zapisać obraz w na h pikseli i stworzony w chunkach o odpowiedniej ilości pikseli
-            File outputfile = new File("MBrot"+w+'x'+h+'_'+chunkSize[0]*chunkSize[1]+".png");
+            File outputfile = new File("MBrot"+w+'x'+h+".png");
             ImageIO.write(images[i], "png", outputfile);
 
         }
 
         //zrobić logi czas-wymiar
-        File logs = new File("logs_64px.csv");
+        File logs = new File("logs_chunk_" + chunkSize[0] + 'x' + chunkSize[1] + ".csv");
         try {
             FileWriter outputfile = new FileWriter(logs);
             CSVWriter writer = new CSVWriter(outputfile);
