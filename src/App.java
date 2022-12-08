@@ -9,7 +9,6 @@ import javax.imageio.ImageIO;
 
 import com.opencsv.CSVWriter;
 
-import java.lang.*;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -120,7 +119,7 @@ public class App {
         }
 
         //zrobić logi czas-wymiar
-        File logs = new File("logs.csv");
+        File logs = new File("logs_sequential.csv");
         try {
             FileWriter outputfile = new FileWriter(logs);
             CSVWriter writer = new CSVWriter(outputfile);
