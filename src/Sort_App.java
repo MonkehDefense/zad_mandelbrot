@@ -20,6 +20,7 @@ import java.util.stream.Collectors;
 
 	//      https://www.youtube.com/watch?v=g06hNBhoS1k
 
+	
 public class Sort_App {
 	public static List<Integer> lista;
 

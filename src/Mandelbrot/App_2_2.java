@@ -133,7 +133,6 @@ public class App_2_2 {
 
 
 
-
 	
 
 	public static void time_it(int[] w, int[] h, int[] repeat, int[] chunkSize, ThreadPoolExecutor exec) throws IOException, InterruptedException {

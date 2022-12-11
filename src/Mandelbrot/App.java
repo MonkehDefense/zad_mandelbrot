@@ -10,7 +10,6 @@ import javax.imageio.ImageIO;
 
 import com.opencsv.CSVWriter;
 
-
 public class App {
 	public static void main(String[] args) throws Exception {
 //        gen_pic(300, 300);

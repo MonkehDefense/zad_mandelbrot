@@ -9,6 +9,7 @@ import javax.imageio.ImageIO;
 
 import com.opencsv.CSVWriter;
 
+
 // Pierwszy program ma tworzyć tyle wątków, ile jest rdzeni w maszynie.
 // Obrazek do wygenerowania należy podzielić na tyle bloków,
 // ile tworzymy wątków, a każdy wątek ma przeliczać jeden blok.

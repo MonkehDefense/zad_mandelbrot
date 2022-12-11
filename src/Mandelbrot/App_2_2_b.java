@@ -14,7 +14,6 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-
 // Drugi program ma wykorzystywać pulę wątków (ma w niej być tyle wątków, ile rdzeni jest w maszynie).
 // Do puli należy wrzucać joby polegające na przeliczeniu części obrazka (szczegóły poniżej).
 
