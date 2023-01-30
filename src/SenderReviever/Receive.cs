@@ -12,7 +12,7 @@ namespace Receive{
 	class Receive{
 		static void Main(string[] args)
 		{
-			String address = "wklep tu ip, gościu";
+			String address = "wklep tu IP, gościu";
 
 
 			var factory = new ConnectionFactory()
