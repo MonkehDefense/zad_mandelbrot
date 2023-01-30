@@ -1,0 +1,51 @@
+C:\Users\kubap\repo\rabbit\Receive\obj\Debug\net7.0\Receive.csproj.AssemblyReference.cache
+C:\Users\kubap\repo\rabbit\Receive\obj\Debug\net7.0\Receive.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kubap\repo\rabbit\Receive\obj\Debug\net7.0\Receive.AssemblyInfoInputs.cache
+C:\Users\kubap\repo\rabbit\Receive\obj\Debug\net7.0\Receive.AssemblyInfo.cs
+C:\Users\kubap\repo\rabbit\Receive\obj\Debug\net7.0\Receive.csproj.CoreCompileInputs.cache
+C:\Users\kubap\repo\rabbit\Receive\bin\Debug\net7.0\Receive.exe
+C:\Users\kubap\repo\rabbit\Receive\bin\Debug\net7.0\Receive.deps.json
+C:\Users\kubap\repo\rabbit\Receive\bin\Debug\net7.0\Receive.runtimeconfig.json
+C:\Users\kubap\repo\rabbit\Receive\bin\Debug\net7.0\Receive.dll
+C:\Users\kubap\repo\rabbit\Receive\bin\Debug\net7.0\Receive.pdb
+C:\Users\kubap\repo\rabbit\Receive\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Users\kubap\repo\rabbit\Receive\obj\Debug\net7.0\Receive.csproj.CopyComplete
+C:\Users\kubap\repo\rabbit\Receive\obj\Debug\net7.0\Receive.dll
+C:\Users\kubap\repo\rabbit\Receive\obj\Debug\net7.0\refint\Receive.dll
+C:\Users\kubap\repo\rabbit\Receive\obj\Debug\net7.0\Receive.pdb
+C:\Users\kubap\repo\rabbit\Receive\obj\Debug\net7.0\Receive.genruntimeconfig.cache
+C:\Users\kubap\repo\rabbit\Receive\obj\Debug\net7.0\ref\Receive.dll
+D:\repozytorium\MonkehDefense\rabbit\Receive\bin\Debug\net7.0\Receive.exe
+D:\repozytorium\MonkehDefense\rabbit\Receive\bin\Debug\net7.0\Receive.deps.json
+D:\repozytorium\MonkehDefense\rabbit\Receive\bin\Debug\net7.0\Receive.runtimeconfig.json
+D:\repozytorium\MonkehDefense\rabbit\Receive\bin\Debug\net7.0\Receive.dll
+D:\repozytorium\MonkehDefense\rabbit\Receive\bin\Debug\net7.0\Receive.pdb
+D:\repozytorium\MonkehDefense\rabbit\Receive\bin\Debug\net7.0\RabbitMQ.Client.dll
+D:\repozytorium\MonkehDefense\rabbit\Receive\obj\Debug\net7.0\Receive.csproj.AssemblyReference.cache
+D:\repozytorium\MonkehDefense\rabbit\Receive\obj\Debug\net7.0\Receive.GeneratedMSBuildEditorConfig.editorconfig
+D:\repozytorium\MonkehDefense\rabbit\Receive\obj\Debug\net7.0\Receive.AssemblyInfoInputs.cache
+D:\repozytorium\MonkehDefense\rabbit\Receive\obj\Debug\net7.0\Receive.AssemblyInfo.cs
+D:\repozytorium\MonkehDefense\rabbit\Receive\obj\Debug\net7.0\Receive.csproj.CoreCompileInputs.cache
+D:\repozytorium\MonkehDefense\rabbit\Receive\obj\Debug\net7.0\Receive.csproj.CopyComplete
+D:\repozytorium\MonkehDefense\rabbit\Receive\obj\Debug\net7.0\Receive.dll
+D:\repozytorium\MonkehDefense\rabbit\Receive\obj\Debug\net7.0\refint\Receive.dll
+D:\repozytorium\MonkehDefense\rabbit\Receive\obj\Debug\net7.0\Receive.pdb
+D:\repozytorium\MonkehDefense\rabbit\Receive\obj\Debug\net7.0\Receive.genruntimeconfig.cache
+D:\repozytorium\MonkehDefense\rabbit\Receive\obj\Debug\net7.0\ref\Receive.dll
+C:\Users\User\Documents\Java\Nowy folder\zad_mandelbrot\zad_mandelbrot\src\SenderReviever\bin\Debug\net7.0\Receive.exe
+C:\Users\User\Documents\Java\Nowy folder\zad_mandelbrot\zad_mandelbrot\src\SenderReviever\bin\Debug\net7.0\Receive.deps.json
+C:\Users\User\Documents\Java\Nowy folder\zad_mandelbrot\zad_mandelbrot\src\SenderReviever\bin\Debug\net7.0\Receive.runtimeconfig.json
+C:\Users\User\Documents\Java\Nowy folder\zad_mandelbrot\zad_mandelbrot\src\SenderReviever\bin\Debug\net7.0\Receive.dll
+C:\Users\User\Documents\Java\Nowy folder\zad_mandelbrot\zad_mandelbrot\src\SenderReviever\bin\Debug\net7.0\Receive.pdb
+C:\Users\User\Documents\Java\Nowy folder\zad_mandelbrot\zad_mandelbrot\src\SenderReviever\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Users\User\Documents\Java\Nowy folder\zad_mandelbrot\zad_mandelbrot\src\SenderReviever\obj\Debug\net7.0\Receive.csproj.AssemblyReference.cache
+C:\Users\User\Documents\Java\Nowy folder\zad_mandelbrot\zad_mandelbrot\src\SenderReviever\obj\Debug\net7.0\Receive.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Java\Nowy folder\zad_mandelbrot\zad_mandelbrot\src\SenderReviever\obj\Debug\net7.0\Receive.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Java\Nowy folder\zad_mandelbrot\zad_mandelbrot\src\SenderReviever\obj\Debug\net7.0\Receive.AssemblyInfo.cs
+C:\Users\User\Documents\Java\Nowy folder\zad_mandelbrot\zad_mandelbrot\src\SenderReviever\obj\Debug\net7.0\Receive.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Java\Nowy folder\zad_mandelbrot\zad_mandelbrot\src\SenderReviever\obj\Debug\net7.0\Receive.csproj.CopyComplete
+C:\Users\User\Documents\Java\Nowy folder\zad_mandelbrot\zad_mandelbrot\src\SenderReviever\obj\Debug\net7.0\Receive.dll
+C:\Users\User\Documents\Java\Nowy folder\zad_mandelbrot\zad_mandelbrot\src\SenderReviever\obj\Debug\net7.0\refint\Receive.dll
+C:\Users\User\Documents\Java\Nowy folder\zad_mandelbrot\zad_mandelbrot\src\SenderReviever\obj\Debug\net7.0\Receive.pdb
+C:\Users\User\Documents\Java\Nowy folder\zad_mandelbrot\zad_mandelbrot\src\SenderReviever\obj\Debug\net7.0\Receive.genruntimeconfig.cache
+C:\Users\User\Documents\Java\Nowy folder\zad_mandelbrot\zad_mandelbrot\src\SenderReviever\obj\Debug\net7.0\ref\Receive.dll

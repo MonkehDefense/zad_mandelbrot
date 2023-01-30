@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "fz3BwcgBDtC2LmtSf8+Rq5oTOUN1XNgVhhTq6bta1TpagC5Ang1psi0R2nK4F9UQ+zVSnDE9rwaay7BAl81z4w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\Documents\\Java\\Nowy folder\\zad_mandelbrot\\zad_mandelbrot\\src\\SenderReviever\\Send\\Send.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
